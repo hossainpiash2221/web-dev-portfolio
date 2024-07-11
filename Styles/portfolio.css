@@ -44,6 +44,10 @@
 
 }
 
+.text-center{
+    text-align: center;
+}
+
 
 /* header */
 .header{
@@ -120,7 +124,11 @@ nav li a{
     margin: 130px;
 }
 
-
+/* main styles */
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 main{
     max-width: 1140px;
     margin: 0 auto;
@@ -134,4 +142,18 @@ main{
 .about-items{
     display: flex;
     justify-content:space-around ;
+}
+
+/* skils styles */
+
+.skills-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding:33px ;
+    border-radius: 5px;
+    box-shadow:0 6px 50px 0px rgb(107, 105, 105);
 }
